@@ -14,5 +14,7 @@ class UsersCommentOpinionsSeeder extends Seeder
     public function run()
     {
         //
+
+
     }
 }
