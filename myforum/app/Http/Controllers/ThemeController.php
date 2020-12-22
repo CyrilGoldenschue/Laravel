@@ -18,7 +18,7 @@ class ThemeController extends Controller
      */
     public function index()
     {
-        $themes = Db::table('themes')->get();
+        $themes = Theme::all();
         return view ('themes.index', ['themes' => $themes]);
     }
 
