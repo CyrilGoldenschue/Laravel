@@ -11,4 +11,13 @@ class Reference extends Model
 
     public $timestamps = false;
 
+
+    /**
+     * The opinions that quote this reference
+     * @return \Illuminate\Database\Eloquent\Relations\HasMany
+     */
+    public function opinions()
+    {
+        return $this->belongsToMany(Opinion::class);
+    }
 }
