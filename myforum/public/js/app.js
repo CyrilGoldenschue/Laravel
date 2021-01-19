@@ -21277,7 +21277,7 @@ module.exports = function(module) {
 
 /***/ "./resources/css/app.css":
 /*!*******************************!*\
-  !*** ./resources/css/app.css ***!
+  !*** ./resourcesOLD/css/app.css ***!
   \*******************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
@@ -21288,7 +21288,7 @@ module.exports = function(module) {
 
 /***/ "./resources/js/app.js":
 /*!*****************************!*\
-  !*** ./resources/js/app.js ***!
+  !*** ./resourcesOLD/js/app.js ***!
   \*****************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -21301,7 +21301,7 @@ __webpack_require__(/*! alpinejs */ "./node_modules/alpinejs/dist/alpine.js");
 
 /***/ "./resources/js/bootstrap.js":
 /*!***********************************!*\
-  !*** ./resources/js/bootstrap.js ***!
+  !*** ./resourcesOLD/js/bootstrap.js ***!
   \***********************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -21333,13 +21333,13 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 
 /***/ 0:
 /*!***********************************************************!*\
-  !*** multi ./resources/js/app.js ./resources/css/app.css ***!
+  !*** multi ./resourcesOLD/js/app.js ./resourcesOLD/css/app.css ***!
   \***********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\Git\Laravel\myforum\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\Git\Laravel\myforum\resources\css\app.css */"./resources/css/app.css");
+__webpack_require__(/*! C:\Git\Laravel\myforum\resourcesOLD\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\Git\Laravel\myforum\resourcesOLD\css\app.css */"./resources/css/app.css");
 
 
 /***/ })

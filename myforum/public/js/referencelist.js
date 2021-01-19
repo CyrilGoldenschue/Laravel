@@ -88,7 +88,7 @@
 
 /***/ "./resources/views/references/referencelist.js":
 /*!*****************************************************!*\
-  !*** ./resources/views/references/referencelist.js ***!
+  !*** ./resourcesOLD/views/references/referencelist.js ***!
   \*****************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
@@ -111,12 +111,12 @@ for (i = 0; i < titles.length; i++) {
 
 /***/ 1:
 /*!***********************************************************!*\
-  !*** multi ./resources/views/references/referencelist.js ***!
+  !*** multi ./resourcesOLD/views/references/referencelist.js ***!
   \***********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Git\Laravel\myforum\resources\views\references\referencelist.js */"./resources/views/references/referencelist.js");
+module.exports = __webpack_require__(/*! C:\Git\Laravel\myforum\resourcesOLD\views\references\referencelist.js */"./resources/views/references/referencelist.js");
 
 
 /***/ })

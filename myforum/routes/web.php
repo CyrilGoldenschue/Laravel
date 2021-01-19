@@ -17,6 +17,7 @@ use App\Http\Controllers\TopicController;
 | contains the "web" middleware group. Now create something great!
 |
 */
+
 Route::get('/', 'App\Http\Controllers\HomeController@index');
 
 Route::Resource('opinions',OpinionController::class);
@@ -26,8 +27,8 @@ Route::Resource('states',StateController::class);
 Route::Resource('themes',ThemeController::class);
 Route::Resource('topics',TopicController::class);
 
-Route::get('/login', function () {
-    return view('/');
+Route::get('/dashboard', function () {
+    return view('dashboard');
 })->middleware(['auth'])->name('dashboard');
 
 require __DIR__.'/auth.php';
